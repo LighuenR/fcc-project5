@@ -94,7 +94,7 @@ header .text-container .text .profesion {
 .main .aboutme .photo img {
     vertical-align: top;
     border-radius: 50%;
-    border: 5px solid rgba(255,255,255,0.5));
+    border: 5px solid rgba(129, 64, 64, 0.5);
 
 }
 
@@ -264,7 +264,7 @@ footer .social-media a {
 footer .social-media .twitter:hover {background: #1da1f2;}
 footer .social-media .facebook:hover {background: #3b5998;}
 footer .social-media .youtube:hover {background: #cd201f;}
-footer .social-media .githug:hover {background: #666666;}
+footer .social-media .github:hover {background: #666666;}
 footer .social-media .instagram:hover {background: #3f729b;}
 
 
