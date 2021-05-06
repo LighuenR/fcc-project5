@@ -147,6 +147,7 @@ header .text-container .text .profesion {
 
 .main .projects .container-projects .project {
     width: 22%;
+    margin-bottom: 40px;
 }
 
 .main .projects .container-projects .project .thun {
@@ -157,6 +158,7 @@ header .text-container .text .profesion {
 .main .projects .container-projects .project .thun img {
     width: 100%;
     vertical-align: top;
+    border-radius: 3px;
 }
 
 .main .projects .container-projects .project .description {
@@ -164,4 +166,118 @@ header .text-container .text .profesion {
 }
 .main .projects .container-projects .project .description .name {
     font-weight: 700;
+    color: #3895ea;
+    margin-bottom: 10px;
+}
+
+.main .projects .container-projects .project .description .category {
+    font-size: 14px;
+    color: #636363;
+
+}
+
+/* Footer */
+
+footer .contact {
+    padding:60px 0;
+}
+
+footer .contact .title {
+    font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 40px;
+    font-weight: 300;
+    color: #3895ea;
+    text-align: center;
+}
+
+footer .contact .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .contact .form input[type="text"],
+footer .contact .form input[type="email"],
+footer .contact .form textarea {
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;
+}
+footer .contact .form input[type="text"]:focus,
+footer .contact .form input[type="email"]:focus,
+footer .contact .form textarea:focus {
+    border: 2px solid #cecece;
+}
+
+footer .contact .form input[type="text"],
+footer .contact .form input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+footer .contact .form textarea {
+    width: 100%;
+    height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contact .form .botom {
+    margin: auto;
+    background: #3895ea;
+    color: #Fff;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+footer .contact .form .botom:hover {
+    background: #3895ba;
+}
+
+footer .social-media {
+    background: #1e2b38;
+    padding: 60px 0;
+}
+footer .social-media .container {
+    display: flex;
+    justify-content: center;
+}
+footer .social-media a {
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+footer .social-media .twitter:hover {background: #1da1f2;}
+footer .social-media .facebook:hover {background: #3b5998;}
+footer .social-media .youtube:hover {background: #cd201f;}
+footer .social-media .githug:hover {background: #666666;}
+footer .social-media .instagram:hover {background: #3f729b;}
+
+
+
+/* Media query */
+
+@media screen and (max-widht: 800px) {
+    header .menu {ext-align: center;}
+    .main .projects .container-projects .porject { width: 49%;}
+}
+
+@media screen and (max-widht: 500px) {
+    header .text-container .text .name {font-size: 35px;}
+    header .text-container .text .profesion {font-size: 18px;}
+    footer .social-media .container {flex-wrap: wrap; padding: 20px 0;}
 }
