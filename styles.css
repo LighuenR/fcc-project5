@@ -168,27 +168,42 @@ header .text-container .text .profesion {
 .main .projects .container-projects .project .description .name {
     font-weight: 700;
     color: #3895ea;
-    margin-bottom: 10px;
+    margin-top: 1em;
+
 }
 
 .main .projects .container-projects .project .description .category {
-    font-size: 14px;
+    margin-top: 1em;
+    font-size: 16px;
     color: #636363;
 
 }
 
-.main .projects .container-projects .project .description button {
+.main .projects .container-projects .project .description .btn-g {
+    cursor: pointer;
     margin: 1em;
     padding: 0.5em;
-    border: 2px solid #49A3D6;
+    color: white;
+    background-color: black ;
+    border: none;
     border-radius: 6px;
-    justify-content: right;
-    align-items: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main .projects .container-projects .project .description .btn-l {
+    cursor: pointer;
+    margin: 1em;
+    padding: 0.5em;
+    color: white;
+    background-color: #1da1f2 ;
+    border: none;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
-.main .projects .container-projects .project .description button:hover {
-    background: #fff;}
+/* .main .projects .container-projects .project .description button:hover {
+    background: #fff;} */
 
 /* Footer */
 
