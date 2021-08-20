@@ -177,6 +177,13 @@ header .text-container .text .profesion {
 
 }
 
+.main .projects .container-projects .project .description button {
+    margin: 1em;
+    padding: 0.5em;}
+
+
+.main .projects .container-projects .project .description button:hover {background: #fff;}
+
 /* Footer */
 
 footer .contact {
