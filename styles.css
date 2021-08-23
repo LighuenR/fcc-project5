@@ -190,23 +190,27 @@ header .text-container .text .profesion {
 .main .projects .container-projects .project .description .btn-g {
     cursor: pointer;
     margin: 1em;
-    padding: 0.5em;
+    padding: 0.7em;
     color: white;
     background-color: black ;
     border: none;
     border-radius: 6px;
-    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 .main .projects .container-projects .project .description .btn-l {
     cursor: pointer;
     margin: 1em;
-    padding: 0.5em;
+    padding: 0.7em;
     color: white;
     background-color: #1da1f2 ;
     border: none;
     border-radius: 6px;
-    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.main .projects .container-projects .project .description i {
+    padding-right: 5px;
 }
 
 
